@@ -6,9 +6,9 @@ import { colorScale, countries, missingCountries } from "./Countries";
 
 function WorldMap() {
   return (
-    <div style={{ margin: "auto", width: "700px", height: "600px", paddingTop : "4rem" }}>
+    <div className="map-container" style={{  width: "700px", height: "600px", }}>
 
-      <h1 style={{ color : "#154D5C", backgroundColor : "white", margin : "auto"}}>Aguima digital Test Map 🗺️</h1>
+      <h1 className="title" style={{ color : "#154D5C", backgroundColor : "white", margin : "auto"}}>Aguima digital Test Map 🗺️</h1>
       <br />
       <VectorMap
         map={africaMill}
